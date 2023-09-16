@@ -1,0 +1,52 @@
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .banner-content h1 {
+    font-size: 0.8em;
+  }
+  .banner-content p {
+    font-size: 0.6em;
+  }
+  .banner-content {
+    left: 35%;
+    top: 28%;
+  }
+  .nav-bar {
+    display: block;
+    max-width: 160px;
+    margin-left: 40px;
+  }
+
+  .nav-link1 {
+    border: 0;
+    font-size: 16px;
+    height: 40px;
+    display: block;
+  }
+  .nav-title {
+    display: none;
+  }
+  .nav-bar div:last-child {
+    border: 0;
+  }
+  .cert-end {
+    border: 0;
+    margin-bottom: 2em;
+  }
+  .cert-sm-bor {
+    border-bottom: 2px solid #d6c08d;
+    padding: 0 1em;
+  }
+  footer i {
+    font-size: 120%;
+  }
+  #email {
+    width: 300px;
+  }
+
+  /* CV */
+  .cv-content {
+    padding: 0.5em 2em;
+  }
+  .cv-span {
+    margin-bottom: 0.5em;
+  }
+}

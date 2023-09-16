@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/44f4c3cfa3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/laptop.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <title>Assignment 03</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <!-- Banner -->
+  <body>
+    <section class="banner mx-5">
+      <img src="images\banner.jpg" alt="banner-img" />
+      <div class="banner-content text-center">
+        <h1 class="fs-1">Tô Nhật Linh</h1>
+        <p>Full Stack Developer</p>
+      </div>
+    </section>
+    <!-- Navbar -->
+
+    <div class="container">
+      <nav class="nav-bar text-md-center mt-4 mt-md-0">
+        <div class="nav-link1">
+          <a
+            href="#"
+            class="text-decoration-none text-uppercase text-dark px-lg-2"
+            ><i class="fa-solid fa-user icon-primary px-1"></i>Thông tin</a
+          >
+        </div>
+        <div class="nav-link1">
+          <a href="#" class="text-decoration-none text-uppercase text-dark"
+            ><i
+              class="fa-file fa-solid icon-primary px-1"
+              aria-hidden="true"
+            ></i
+            >Lý lịch</a
+          >
+        </div>
+
+        <div class="nav-link1 nav-title">
+          <h2>Tô Nhật Linh</h2>
+          <p>Full Stack Developer</p>
+        </div>
+        <div class="nav-link1">
+          <a href="#" class="text-decoration-none text-uppercase text-dark"
+            ><i class="fa-solid fa-envelope icon-primary px-1"></i>Chứng chỉ</a
+          >
+        </div>
+        <div class="nav-link1">
+          <a href="#" class="text-decoration-none text-uppercase text-dark"
+            ><i class="fa-solid fa-star icon-primary px-1"></i>Dự Án</a
+          >
+        </div>
+      </nav>
+    </div>
+    <!-- MID SECTION -->
+    <section class="mx-5">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md bg-light-grey py-5 ps-lg-5 px-3">
+            <!-- MTNN -->
+            <h1 class="py-3 fs-1">Mục tiêu nghề nghiệp</h1>
+            <p class="pt-3 lh-lg grey-font">
+              Là một sinh viên đã hoàn thành chương trình chứng chỉ Doanh Nghiệp
+              của FUNiX. Em mong muốn mình sẽ được làm việc với vị trí Fullstack
+              Developer, có thể vận dụng những kiến thức đã được trau dồi và
+              không ngừng học hỏi để phát triển bản thân, cũng như hoàn thành
+              tốt nhất công việc được giao.
+            </p>
+          </div>
+          <!-- EMAIL -->
+          <div class="col-md bg-light-light-grey py-5 ps-lg-5 px-3">
+            <h1 class="py-3 fs-1">Thông tin cá nhân</h1>
+            <div class="ps-info-verify">
+              <input type="email" placeholder="Enter email" id="email" /><br />
+              <label id="input-label">Hãy nhập email để xác thực</label><br />
+
+              <button class="submit">Submit</button>
+            </div>
+            <!-- TTCN -->
+            <div class="ps-info hidden">
+              <ul class="pt-3 ps-0 lh-lg">
+                <li><span class="fw-bold">Giới tính</span> : Nam</li>
+                <li><span class="fw-bold">Ngày sinh</span> : 03/01/2000</li>
+                <li>
+                  <span class="fw-bold">Điện thoại</span> : (+84) 912398xxx
+                </li>
+                <li>
+                  <span class="fw-bold">Email</span> :
+                  linhtn2SE00531x@funix.edu.vn
+                </li>
+                <li>
+                  <span class="fw-bold">Địa chỉ</span> : Đông Ngạc, Bắc Từ Liêm,
+                  Hà Nội
+                </li>
+                <li><span class="fw-bold">Website</span> : https://abc.tech</li>
+              </ul>
+              <!-- ICON -->
+              <div class="d-flex pt-3">
+                <a href="#"
+                  ><i class="fa-brands fa-twitter icon-primary px-2"></i
+                ></a>
+                <a href="#"
+                  ><i
+                    class="fa fa-facebook icon-primary px-2"
+                    aria-hidden="true"
+                  ></i
+                ></a>
+                <a href="#"
+                  ><i class="fa-brands fa-google icon-primary px-2"></i
+                ></a>
+                <a href="#"
+                  ><i class="fa-brands fa-linkedin-in icon-primary px-2"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- KINH NGHIEM -->
+    <section class="mx-5 my-4">
+      <div class="container-fluid overflow-hidden">
+        <div class="row justify-content-center">
+          <div class="col-lg-3 col-md-5 content-bor mx-3">
+            <div class="content-header row g-4 pt-5">
+              <div class="col-8">
+                <h1 class="ps-4">Kinh nghiệm</h1>
+              </div>
+
+              <div class="col-4">
+                <i class="fa-solid fa-briefcase icon-secondary"></i>
+              </div>
+              <div class="col">
+                <button class="view-more hidden overflow-hidden">
+                  <i class="fa-solid fa-arrow-down"></i>View more
+                </button>
+              </div>
+            </div>
+
+            <div class="content-overall hidden">
+              <div class="content-main p-4">
+                <div class="content-1 ps-4">
+                  <h4 class="fw-bold fs-5">Full Stack Developer - Công ty Y</h4>
+                  <p class="fst-italic grey-font">
+                    05/2022 - <span class="current">Hiện tại</span>
+                  </p>
+                  <p class="p-line-height grey-font">
+                    - Xây dựng, phát triển Website dựa trên thiết kế và yêu cầu
+                    đã có.<br />- Phân tích và thiết kế Database, sử dụng các hệ
+                    quản trị CSDL(MySQL, SQLServer, NoSQL, ...)và viết được các
+                    câu truy vấn.<br />- Sử dụng ngôn ngữ server-side(Python,
+                    Java, ...) để xây dựng các Web Service.
+                  </p>
+                </div>
+              </div>
+              <div class="content-main p-4">
+                <div class="content-1 ps-4">
+                  <h4 class="fw-bold fs-5">Web Designer - Công ty X</h4>
+                  <p class="fst-italic grey-font">06/2021 - 04/2022</p>
+                  <p class="p-line-height grey-font">
+                    - Thiết kế Website dựa trên yêu cầu của khách hàng.<br />-
+                    Sử dụng các công cụ: Figma, Canva, PTS.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button class="view-less hidden">
+              <i class="fa-solid fa-arrow-up"></i>View less
+            </button>
+          </div>
+          <!-- HOC VAN -->
+          <div class="col-lg-3 col-md-5 content-bor mx-3 mt-4 mt-md-0">
+            <div class="row g-4 pt-5 content-header">
+              <div class="col-8"><h1 class="ps-4">Học vấn</h1></div>
+              <div class="col-4">
+                <i class="fa-solid fa-pencil icon-secondary"></i>
+              </div>
+              <div class="col">
+                <button class="view-more hidden">
+                  <i class="fa-solid fa-arrow-down"></i>View more
+                </button>
+              </div>
+            </div>
+            <div class="content-overall hidden">
+              <div class="content-main p-4">
+                <div class="content-1 ps-4">
+                  <h4 class="fw-bold fs-5">FUNiX</h4>
+                  <p class="fst-italic grey-font">06/2021-05/2022</p>
+                  <p class="p-line-height grey-font">
+                    - Tốt nghiệp chứng chỉ doanh nghiệp nhánh Fullstack.<br />
+                    - GPA: 9/10
+                  </p>
+                </div>
+              </div>
+              <div class="content-main p-4">
+                <div class="content-1 ps-4">
+                  <h4 class="fw-bold fs-5">Cử nhân - ĐH FPT</h4>
+                  <p class="fst-italic grey-font">08/2016 - 07/2019</p>
+                  <p class="p-line-height grey-font">
+                    - Chuyên ngành: Kỹ thuật phần mềm.<br />- GPA: 3.2/4
+                  </p>
+                </div>
+              </div>
+              <div class="content-main p-4">
+                <div class="content-1 ps-4">
+                  <h4 class="fw-bold fs-5">Đại học Bách Khoa</h4>
+                  <p class="fst-italic grey-font">08/2016 - 02/2018</p>
+                  <p class="p-line-height grey-font">
+                    - Chuyên ngành: Tự động hóa.<br />- GPA: 3.5/4
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button class="view-less hidden">
+              <i class="fa-solid fa-arrow-up"></i>View less
+            </button>
+          </div>
+          <!-- HOAT DONG -->
+          <div class="col-lg-3 col-md-5 content-bor mx-3 mt-4 mt-lg-0">
+            <div class="row g-4 pt-5 content-header">
+              <div class="col-8"><h1 class="ps-4">Hoạt động</h1></div>
+              <div class="col-4">
+                <i class="fa-solid fa-briefcase icon-secondary"></i>
+              </div>
+              <div class="col">
+                <button class="view-more hidden overflow-hidden">
+                  <i class="fa-solid fa-arrow-down"></i>View more
+                </button>
+              </div>
+            </div>
+            <div class="content-overall hidden">
+              <div class="content-main p-4">
+                <div class="content-1 ps-4">
+                  <h4 class="fw-bold fs-5">FPT Edu Hackathon 2019</h4>
+                  <p class="fst-italic grey-font">03/2019-05/2019</p>
+                  <p class="p-line-height grey-font">
+                    - Giải 3 bảng A<br />
+                    - Đề tài: Trang web về phân loại rác thải.
+                  </p>
+                </div>
+              </div>
+              <div class="content-main p-4">
+                <div class="content-1 ps-4">
+                  <h4 class="fw-bold fs-5">Câu lạc bộ Z</h4>
+                  <p class="fst-italic grey-font">08/2016 - 08/2017</p>
+                  <p class="p-line-height grey-font">
+                    - Trưởng ban chuyên môn.
+                  </p>
+                </div>
+              </div>
+              <button class="view-less hidden">
+                <i class="fa-solid fa-arrow-up"></i>View less
+              </button>
+            </div>
+          </div>
+          <!-- SO THICH -->
+          <div class="col-lg-3 col-md-5 content-bor mx-3 mt-4">
+            <div class="row g-4 pt-5 content-header">
+              <div class="col-8"><h1 class="ps-4">Sở thích</h1></div>
+              <div class="col-4">
+                <i class="fa-solid fa-satellite icon-secondary"></i>
+              </div>
+              <div class="col">
+                <button class="view-more hidden overflow-hidden">
+                  <i class="fa-solid fa-arrow-down"></i>View more
+                </button>
+              </div>
+            </div>
+            <div class="content-overall hidden">
+              <ul class="row pt-3 g-1 px-0">
+                <li class="text-center col-3">
+                  <i
+                    class="fa-solid fa-headphones icon-primary icon-border-fs-lg p-3 mb-2"
+                  ></i
+                  ><br /><span class="grey-font">Âm nhạc</span>
+                </li>
+                <li class="text-center col-3">
+                  <i
+                    class="fa-solid fa-chess-knight icon-primary icon-border-fs-lg p-3 mb-2"
+                  ></i
+                  ><br /><span class="grey-font">Chơi game</span>
+                </li>
+                <li class="text-center col-3">
+                  <i
+                    class="fa-solid fa-plane icon-primary icon-border-fs-lg p-3 mb-2"
+                  ></i
+                  ><br /><span class="grey-font">Du lịch</span>
+                </li>
+                <li class="text-center col-3">
+                  <i
+                    class="fa-solid fa-film icon-primary icon-border-fs-lg p-3 mb-2"
+                  ></i
+                  ><br /><span class="grey-font">Xem phim</span>
+                </li>
+              </ul>
+              <button class="view-less hidden">
+                <i class="fa-solid fa-arrow-up"></i>View less
+              </button>
+            </div>
+          </div>
+          <!-- NGON NGU -->
+          <div class="col-lg-3 col-md-5 content-bor mx-3 mt-4">
+            <div class="row g-4 pt-5 content-header">
+              <div class="col-8"><h1 class="ps-4">Ngôn ngữ</h1></div>
+              <div class="col-4">
+                <i class="fa-solid fa-microphone icon-secondary"></i>
+              </div>
+              <div class="col">
+                <button class="view-more hidden overflow-hidden">
+                  <i class="fa-solid fa-arrow-down"></i>View more
+                </button>
+              </div>
+            </div>
+            <div class="content-overall hidden">
+              <div class="px-4 py-2">
+                <h4 class="fw-bold fs-5">Tiếng Anh - IELTS 7.5</h4>
+                <span class="bar-blue"></span>
+                <span class="bar-blue"></span>
+                <span class="bar-grey"></span>
+              </div>
+              <div class="px-4 py-2">
+                <h4 class="fw-bold fs-5">Tiếng Nhật - JLPT N1</h4>
+                <span class="bar-blue"></span>
+                <span class="bar-blue"></span>
+                <span class="bar-blue"></span>
+              </div>
+            </div>
+            <button class="view-less hidden">
+              <i class="fa-solid fa-arrow-up"></i>View less
+            </button>
+          </div>
+          <!-- KY NANG -->
+          <div class="col-lg-3 col-md-5 content-bor mx-3 mt-4">
+            <div class="row g-4 pt-5 content-header">
+              <div class="col-8"><h1 class="ps-4">Kỹ năng</h1></div>
+              <div class="col-4">
+                <i class="fa-solid fa-toolbox icon-secondary"></i>
+              </div>
+              <div class="col">
+                <button class="view-more hidden overflow-hidden">
+                  <i class="fa-solid fa-arrow-down"></i>View more
+                </button>
+              </div>
+            </div>
+            <div class="content-overall hidden">
+              <div class="mb-5">
+                <div class="px-4 py-2">
+                  <h4 class="fw-bold fs-5">HTML/CSS: Fundamental</h4>
+                  <span class="bar-blue"></span>
+                  <span class="bar-grey"></span>
+                  <span class="bar-grey"></span>
+                </div>
+                <div class="px-4 py-2">
+                  <h4 class="fw-bold fs-5">Javascript: Intermediate</h4>
+                  <span class="bar-blue"></span>
+                  <span class="bar-blue"></span>
+                  <span class="bar-grey"></span>
+                </div>
+                <div class="px-4 py-2">
+                  <h4 class="fw-bold fs-5">NodeJS: Intermediate</h4>
+                  <span class="bar-blue"></span>
+                  <span class="bar-blue"></span>
+                  <span class="bar-grey"></span>
+                </div>
+                <div class="px-4 py-2">
+                  <h4 class="fw-bold fs-5">Bootstrap 5: Fundamental</h4>
+                  <span class="bar-blue"></span>
+                  <span class="bar-grey"></span>
+                  <span class="bar-grey"></span>
+                </div>
+              </div>
+            </div>
+            <button class="view-less hidden">
+              <i class="fa-solid fa-arrow-up"></i>View less
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CERT -->
+    <section class="mx-5 my-4 bg-light-grey">
+      <div class="cert-container">
+        <h1 class="py-4">Chứng chỉ - Giải thưởng</h1>
+        <div class="row g-3">
+          <div class="cert-sm-bor col-md-6 row py-4 px-0">
+            <div class="col-lg-4 px-0">
+              <img src="images\Cert_DBI.png" alt="cert1" class="img-fluid" />
+            </div>
+            <div class="col-lg-8 pe-0">
+              <h4 class="fw-bold fs-5 text-uppercase">
+                chứng chỉ lập trình web - funix
+              </h4>
+              <p class="grey-font">
+                - Chứng chỉ thuộc chương trình CCDN <br />- GPA: 8.6
+              </p>
+            </div>
+          </div>
+          <div class="cert-sm-bor col-md-6 row py-4 px-0 cert-left-container">
+            <div class="col-lg-4 px-0">
+              <img
+                src="images\Cert_PRF.png"
+                alt="cert2"
+                class="img-fluid cert-left ps-2"
+              />
+            </div>
+            <div class="col-lg-8 cert-left">
+              <h4 class="fw-bold fs-5 text-uppercase">
+                chứng chỉ lập trình javascript - funix
+              </h4>
+              <p class="grey-font">
+                - Chứng chỉ thuộc chương trình CCDN <br />- GPA: 8.9
+              </p>
+            </div>
+          </div>
+          <div class="cert-end cert-sm-bor col-lg-12 row py-4 px-0">
+            <div class="col-lg-2 px-0">
+              <img src="images\Cert_WEB.png" alt="cert1" class="img-fluid" />
+            </div>
+            <div class="col-lg-10">
+              <h4 class="fw-bold fs-5 text-uppercase">
+                chứng chỉ thiết kế database - funix
+              </h4>
+              <p class="grey-font">
+                - Chứng chỉ thuộc chương trình CCDN <br />- GPA: 8.0
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- DU AN -->
+    <section class="mx-5 my-4">
+      <div class="container">
+        <h1 class="py-4">Dự án</h1>
+        <div class="row g-4 justify-content-center tb-container">
+          <div class="col-md-4">
+            <div class="tb-container-sub">
+              <img src="images\project_1.png" alt="pro1" class="img-fluid" />
+              <a
+                href="digital-cv.html"
+                class="fw-bold fs-5 py-3 px-3 m-0 content-bor-light text-uppercase text-dark text-decoration-none pro-a"
+              >
+                cv cá nhân
+              </a>
+              <div class="py-3 px-3 content-bor-light">
+                <span class="current">2021</span>
+                <span
+                  ><i class="fa-solid fa-user-large grey-font mx-2"></i
+                  >FUNiX</span
+                >
+                <span
+                  ><i class="fa-regular fa-lightbulb grey-font mx-2"></i
+                  >Developer</span
+                >
+              </div>
+              <table class="grey-font tb-main">
+                <tr class="content-bor-light">
+                  <td class="tb-head p-2 aln-top">Mô tả</td>
+                  <td class="py-2 pe-1 aln-top">
+                    Trang Web CV cá nhân online. Gồm các thông tin cá nhân cũng
+                    như kỹ năng nghề nghiệp.
+                  </td>
+                </tr>
+                <tr class="content-bor-light">
+                  <td class="tb-head p-2 aln-top">Nhiệm vụ</td>
+                  <td class="py-2 pe-1 aln-top">
+                    - Phát triển code - Review code - Tối ưu code - Xử lý lỗi
+                  </td>
+                </tr>
+                <tr class="content-bor-light">
+                  <td class="tb-head p-2 aln-top">Công nghệ</td>
+                  <td class="py-2 pe-1 aln-top">- HTML, CSS</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="tb-container-sub">
+              <img src="images\project_2.png" alt="pro1" class="img-fluid" />
+
+              <a
+                href="digital-cv.html"
+                class="fw-bold text-decoration-none fs-5 py-3 px-3 m-0 content-bor-light text-uppercase pro-a text-dark"
+              >
+                trang web quản lý thú cưng
+              </a>
+
+              <div class="py-3 px-3 content-bor-light">
+                <span class="current">2021</span>
+                <span
+                  ><i class="fa-solid fa-user-large grey-font mx-2"></i
+                  >FUNiX</span
+                >
+                <span
+                  ><i class="fa-regular fa-lightbulb grey-font mx-2"></i
+                  >Developer</span
+                >
+              </div>
+              <table class="grey-font tb-main">
+                <tr class="content-bor-light">
+                  <td class="tb-head p-2 aln-top">Mô tả</td>
+                  <td class="py-2 pe-1 aln-top">
+                    Ứng dụng giúp quản lý các thông tin của thú cưng như: Cân
+                    nặng, giống, tình trạng tiêm chủng, ... Bao gồm các chức
+                    năng thêm / sửa / xóa.
+                  </td>
+                </tr>
+                <tr class="content-bor-light">
+                  <td class="tb-head p-2 aln-top">Nhiệm vụ</td>
+                  <td class="py-2 pe-1 aln-top">
+                    - Phát triển code - Review code - Tối ưu code - Xử lý lỗi
+                  </td>
+                </tr>
+                <tr class="content-bor-light">
+                  <td class="tb-head p-2 aln-top">Công nghệ</td>
+                  <td class="py-2 pe-1 aln-top">- HTML, CSS, Javascript</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="tb-container-sub">
+              <img src="images\project_3.png" alt="pro1" class="img-fluid" />
+              <a
+                href="digital-cv.html"
+                class="fw-bold fs-5 py-3 px-3 m-0 content-bor-light text-uppercase text-decoration-none text-dark pro-a"
+              >
+                trang web xem tin tức
+              </a>
+              <div class="py-3 px-3 content-bor-light">
+                <span class="current">2021</span>
+                <span
+                  ><i class="fa-solid fa-user-large grey-font mx-2"></i
+                  >FUNiX</span
+                >
+                <span
+                  ><i class="fa-regular fa-lightbulb grey-font mx-2"></i
+                  >Developer</span
+                >
+              </div>
+              <table class="grey-font tb-main">
+                <tr class="content-bor-light">
+                  <td class="tb-head p-2 aln-top">Mô tả</td>
+                  <td class="py-2 pe-1 aln-top">
+                    Trang Web tin tức từ nhiều nguồn khác nhau, người dùng có
+                    thể tìm kiếm các tin tức dựa theo các từ khóa.
+                  </td>
+                </tr>
+                <tr class="content-bor-light">
+                  <td class="tb-head p-2 aln-top">Nhiệm vụ</td>
+                  <td class="py-2 pe-1 aln-top">
+                    - Phát triển code - Review code - Tối ưu code - Xử lý lỗi
+                  </td>
+                </tr>
+                <tr class="content-bor-light">
+                  <td class="tb-head p-2 aln-top">Công nghệ</td>
+                  <td class="py-2 pe-1 aln-top">- HTML, CSS, Javascript</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="mx-5 bg-light-grey">
+      <div class="container">
+        <ul class="d-flex justify-content-center align-items-center py-5">
+          <li>
+            <a
+              href="https://www.facebook.com/"
+              class="text-decoration-none grey-font px-4"
+              target="_blank"
+              ><i class="fa-brands fa-facebook icon-primary px-2 aln-bot"></i
+              >Facebook</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/"
+              class="text-decoration-none grey-font px-4"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin icon-primary px-2 aln-bot"></i
+              >Linkedin</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/"
+              class="text-decoration-none grey-font px-4"
+              target="_blank"
+              ><i class="fa-brands fa-github icon-primary px-2 aln-bot"></i
+              >Github</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="js\code.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

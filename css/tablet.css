@@ -1,0 +1,48 @@
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .banner-content {
+    top: 28%;
+    left: 40%;
+  }
+  .banner-content h1 {
+    font-size: 1.5em;
+  }
+  .banner-content p {
+    font-size: 1em;
+  }
+  .nav-title h2,
+  .nav-title p {
+    display: none;
+  }
+  .nav-link1 {
+    flex: 0 1 18%;
+  }
+  .nav-title {
+    flex: 0 1 8%;
+  }
+  #email {
+    width: 300px;
+  }
+  .tb-main {
+    height: 600px;
+    overflow: hidden;
+  }
+  .cert-end div:first-child {
+    width: 50%;
+  }
+  .cert-end div:last-child {
+    width: 60%;
+  }
+  .cert-left {
+    margin-left: 2em;
+  }
+  div.cert-left {
+    border-left: 2px solid #d6c08d;
+  }
+  /* CV */
+  .cv-content div {
+    padding-left: 2em;
+  }
+  .cv-span {
+    margin-bottom: 0.5em;
+  }
+}
